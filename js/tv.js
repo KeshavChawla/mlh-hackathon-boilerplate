@@ -21,7 +21,7 @@ var tv,
 	
 var vid = [{
 		'videoId': 'IyTv_SR2uUo',
-		// 'startSeconds': 515,
+		'startSeconds': 515,
 		// 'endSeconds': 690,
 		'suggestedQuality': 'hd720'
 	}],
