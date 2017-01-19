@@ -49,8 +49,10 @@ section {
  */
 
 .hero {
-  background-color: #F5699C;
-  min-height: 110vh;
+  background-color: #000000;
+  min-height: 100vh;
+  position: relative;
+  z-index: 9;
 }
 
 .hero img {
