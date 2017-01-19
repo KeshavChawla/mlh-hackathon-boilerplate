@@ -49,11 +49,11 @@ section {
  */
 
 .hero {
- background: url('http://i.imgur.com/UygoXlX.jpg');
- background-size: cover;
- background-repeat: no-repeat;
- height: 100vh;
- overflow:hidden
+  background: url('http://i.imgur.com/UygoXlX.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow:hidden
 }
 
 .hero-overlay {
@@ -61,6 +61,7 @@ section {
   z-index: 9;
   width: 100vw;
   height: 100vh;
+  background: rgba(36, 41, 67, .8)
 }
 
 .hero img {
