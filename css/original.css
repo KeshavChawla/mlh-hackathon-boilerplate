@@ -49,9 +49,10 @@ section {
  */
 
 .hero {
-  background-color: #000000;
-  min-height: 100vh;
-  position: relative;
+ background: url('https://source.unsplash.com/random');
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100vh;
 }
 
 .hero-overlay {
