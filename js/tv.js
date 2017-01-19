@@ -20,7 +20,7 @@ var tv,
 	};
 	
 var vid = [{
-		'videoId': '6dwsQgCxtfg',
+		'videoId': 'IyTv_SR2uUo',
 		// 'startSeconds': 515,
 		// 'endSeconds': 690,
 		'suggestedQuality': 'hd720'
@@ -39,7 +39,7 @@ function onYouTubePlayerAPIReady() {
 
 function onPlayerReady() {
 	tv.loadVideoById(vid[randomvid]);
-	// tv.mute();
+	tv.mute();
 }
 
 function onPlayerStateChange(e) {
