@@ -27,7 +27,6 @@
 
 body {
   background-color: #72C3DD;
-  color: #fff;
 }
 
 section {
@@ -77,8 +76,8 @@ section {
 }
 
 .hero .wrapper h1 {
-  background: #000;
-  background: rgba(0, 0, 0, .3);
+  background: #fff;
+  background: rgba(255, 255, 255, .3);
   display: inline-block;
   font-size: 60px;
   font-weight: 800;
