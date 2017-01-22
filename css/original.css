@@ -10,10 +10,14 @@
 /* Montserrat Google Font */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-/*
- * Primary Blue: #44D5FF;
- * Dark Blue: #0F2C34;
- * Primary Pink: #FF7FA8;
+/* Color Palette
+#72C3DD
+#8D84C2
+#EA8D83
+#FEC999
+#8FAAE6
+#89C4A5
+#242943
  */
 
 * {
@@ -22,7 +26,8 @@
 }
 
 body {
-  background-color: #F5699C;
+  background-color: #72C3DD;
+  color: #fff;
 }
 
 section {
@@ -44,7 +49,7 @@ section {
   z-index: 10000;
 }
 
-/* 
+/*
  * Hero Section
  */
 
@@ -72,8 +77,8 @@ section {
 }
 
 .hero .wrapper h1 {
-  background: #fff;
-  background: rgba(255, 255, 255, .3);
+  background: #000;
+  background: rgba(0, 0, 0, .3);
   display: inline-block;
   font-size: 60px;
   font-weight: 800;
@@ -121,7 +126,7 @@ section {
   margin-right: 10px;
 }
 
-/* 
+/*
  * About Section
  */
 
@@ -220,7 +225,7 @@ section {
  */
 
 .footer {
-  background-color: #F5699C;
+  background-color: #72C3DD;
   color: #fff;
   padding: 30px 0;
 }
