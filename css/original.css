@@ -57,8 +57,15 @@ section {
  */
 
 .hero {
-    background: transparent url('http://i.imgur.com/UygoXlX.jpg') repeat 0 0;
-    background: rgba(36, 41, 67, 0.8);
+    background: rgba(36, 41, 67, 0.6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-background {
+    background: url('http://i.imgur.com/UygoXlX.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
