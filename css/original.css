@@ -57,21 +57,19 @@ section {
  */
 
 .hero {
-    background: rgba(36, 41, 67, 0.6);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    overflow: hidden;
-    z-index: 10;
-}
-
-.hero-background {
     background: url('http://i.imgur.com/UygoXlX.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     overflow: hidden;
-    z-index: 9;
+}
+
+.hero-overlay {
+    background: rgba(36, 41, 67, 0.6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .hero img {
