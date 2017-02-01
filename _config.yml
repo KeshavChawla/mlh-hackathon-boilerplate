@@ -48,6 +48,8 @@ event:
           redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
       - text: "Sponsor"
         href: "mailto:sponsorship@website.com"
+      - text: "Mentor"
+        href: "#"
 
   about:
     description: >
