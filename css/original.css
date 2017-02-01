@@ -57,7 +57,7 @@ section {
  */
 
 .hero {
-    background: url('http://i.imgur.com/UygoXlX.jpg');
+    background: url(../images/toronto.svg), #72C3DD;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -65,13 +65,13 @@ section {
     color: #fff;
 }
 
-.hero-overlay {
+/*.hero-overlay {
     background: rgba(36, 41, 67, 0.5);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     overflow: hidden;
-}
+}*/
 
 .hero img {
     max-width: 400px;
