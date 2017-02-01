@@ -57,7 +57,7 @@ section {
  */
 
 .hero {
-    background: url(../images/toronto.svg), #72C3DD;
+    background: url(../images/toronto.png), #72C3DD;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
