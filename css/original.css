@@ -110,6 +110,7 @@ section {
 
 .hero .buttons {
     margin: 10px 0;
+    
 }
 
 .hero .buttons a {
@@ -123,7 +124,7 @@ section {
     position: relative;
     display: inline-block;
     font-family: Montserrat;
-    font-size: 24px;
+    font-size: 40%;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
