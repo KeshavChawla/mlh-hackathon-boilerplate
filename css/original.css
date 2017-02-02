@@ -214,7 +214,7 @@ section {
     font-family: 'Montserrat';
     font-weight: 700;
     margin: 30px 0;
-    color: #EA8D83;
+    color: #242943;
 }
 
 .faq .question h2 {
@@ -283,11 +283,11 @@ section {
 }
 
 .brace {
-    color: #EA8D83;
+    color: #242943;
 }
 
 .parentheses {
-    color: #EA8D83;
+    color: #89C4A5;
 }
 
 #sidebar li {
