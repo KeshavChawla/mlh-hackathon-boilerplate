@@ -29,7 +29,7 @@ seo:
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
-  event:       "Inspire"
+event:
   name:        "InspireHacks"
   description: "Inspire. Accelerate. Grow"
   date:        "April 22-23, 2017"
@@ -95,12 +95,7 @@ seo:
     - question: "is_there_a_code_of_conduct?"
       answer: >
         Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
-   - question: "ok_if_no_experience?"
-      answer: >
-        That's completely fine! You'll have plenty of opportunity to pick the brains of talented students around you. Furthermore, we will help you get started or learn something new!
-   - question: "what_to_build ?"
-      answer: >
-        You can build whatever you want: websites, programs, mobile apps, anything! However, all code must be written during the hackathon - feel free to use open source libraries and APIs.
+
   # This is the message you'll receive once you've registered.
   register:
     message: >
