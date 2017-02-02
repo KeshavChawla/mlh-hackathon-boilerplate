@@ -98,7 +98,7 @@ event:
    - question: "ok_if_no_experience?"
       answer: >
         That's completely fine! You'll have plenty of opportunity to pick the brains of talented students around you. Furthermore, we will help you get started or learn something new!
-   - question: "what_to_build?"
+   - question: "what_to_build ?"
       answer: >
         You can build whatever you want: websites, programs, mobile apps, anything! However, all code must be written during the hackathon - feel free to use open source libraries and APIs.
   # This is the message you'll receive once you've registered.
