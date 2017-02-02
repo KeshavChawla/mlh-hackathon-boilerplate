@@ -1,5 +1,5 @@
 $(document).ready(function() {
-var faqHeight = $('#faq').height();
+var faqHeight = $('.faq').height();
 var lineHeight = $('#linecount-start').height();
 var lineCount = faqHeight / lineHeight;
 
