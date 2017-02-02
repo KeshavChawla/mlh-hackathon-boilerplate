@@ -24,12 +24,12 @@ social:
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "InspireHacks | 15/16 April 2017"
+  title:        "InspireHacks | 15/16 April 2017"
   description: "This is a sample hackathon website that you can use by following instructions on GitHub."
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
-  event:  "Inspire"
+  event:       "Inspire"
   name:        "InspireHacks"
   description: "Inspire. Accelerate. Grow"
   date:        "April 22-23, 2017"
