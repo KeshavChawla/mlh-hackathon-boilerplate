@@ -1,55 +1,59 @@
---- layout: default --- {% include hero.html %}
+---
+layout: default
+---
+
+{% include hero.html %}
 
 <section class="about">
-    <div class="container">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-            {{ site.event.about.description | markdownify }}
-        </div>
+  <div class="container">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+      {{ site.event.about.description | markdownify }}
     </div>
+  </div>
 </section>
 
 <section class="info">
-    <div class="container">
-        <div class="items row">
-            {% for section in site.event.info.sections %}
-            <div class="col-xs-12 col-sm-4 text-center">
-                <div class="item">
-                    <img src="{{ section.image }}" />
-                    <h1>{{ section.title }}</h1>
-                    <p>{{ section.description }}</p>
-                </div>
-            </div>
-            {% endfor %}
+  <div class="container">
+    <div class="items row">
+      {% for section in site.event.info.sections %}
+        <div class="col-xs-12 col-sm-4 text-center">
+          <div class="item">
+            <img src="{{ section.image }}" />
+            <h1>{{ section.title }}</h1>
+            <p>{{ section.description }}</p>
+          </div>
         </div>
+      {% endfor %}
     </div>
+  </div>
 </section>
 
 <section class="faq">
-        <div class="col-xs-1">
-            <ul id="sidebar">
-                <li id="linecount-start">&nbsp;</li>
-            </ul>
-        </div>
-        <div class="col-xs-10 container">
-            <div class="row">
+    <div class="col-xs-1">
+        <ul id="sidebar">
+            <li id="linecount-start">&nbsp;</li>
+        </ul>
+    </div>
+    <div class="col-xs-10 container">
+        <div class="row">
+            <br>
+            <div>
+                <h1 class="text-center">FAQ</h1>
                 <br>
-                <div>
-                    <h1 class="text-center">FAQ</h1>
-                    <br>
-                    <div class="row">
-                        {% for item in site.event.faq %}
-                        <div class="col-xs-12">
-                            <div class="question">
-                                <span class="keyword">function</span><span class="function"> {{ item.question }} </span><span class="parentheses">(</span><span class="params"></span><span class="parentheses">)</span> <span class="brace">{</span>
-                            </div>
-                            <div class="answer">
-                                {{ item.answer | markdownify }}
-                            </div>
-                            <span class="brace">}</span>
+                <div class="row">
+                    {% for item in site.event.faq %}
+                    <div class="col-xs-12">
+                        <div class="question">
+                            <span class="keyword">function</span><span class="function"> {{ item.question }} </span><span class="parentheses">(</span><span class="params"></span><span class="parentheses">)</span> <span class="brace">{</span>
                         </div>
-                        {% endfor %}
+                        <div class="answer">
+                            {{ item.answer | markdownify }}
+                        </div>
+                        <span class="brace">}</span>
                     </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
+    </div>
 </section>
