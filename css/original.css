@@ -245,7 +245,7 @@ section {
 }
 
 .faq-links:hover .faq-links:active {
-    color: #fff;
+    color: #FEC999 !important;
 }
 
 
