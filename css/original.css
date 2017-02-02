@@ -90,11 +90,9 @@ section {
 }
 
 .hero .wrapper h1 {
-    display: inline-block;
-    font-size: 40em;
+    font-size: 120px;
     font-weight: 800;
     letter-spacing: -2px;
-    padding: 10px 30px;
 }
 
 .hero .wrapper h2 {
