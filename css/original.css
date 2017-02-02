@@ -244,11 +244,19 @@ section {
     color: #FEC999;
 }
 
+.faq-links:link {
+    color: #FEC999 !important;
+}
+
 .faq-links:hover {
     color: #FEC999 !important;
 }
 
 .faq-links:active {
+    color: #FEC999 !important;
+}
+
+.faq-links:visited {
     color: #FEC999 !important;
 }
 
