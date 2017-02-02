@@ -9,4 +9,4 @@ $(document).ready(function() {
         newNode.appendChild(innerContent);
         document.getElementById('sidebar').appendChild(newNode);
     }
-});//
+});
