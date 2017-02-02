@@ -240,6 +240,10 @@ section {
     width: 300px;
 }
 
+.faq-card {
+    margin-bottom: 25px;
+}
+
 
 /*
  * FAQ Code Editor
