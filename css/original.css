@@ -243,6 +243,19 @@ section {
 
 
 /*
+ * FAQ Code Editor
+ */
+
+.keyword {
+    color: #72C3DD;
+}
+
+.function {
+    color: #89C4A5;
+}
+
+
+/*
  * Footer Section
  */
 
