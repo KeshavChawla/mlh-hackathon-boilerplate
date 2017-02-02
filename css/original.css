@@ -149,7 +149,7 @@ section {
 
 .about {
     border-width: 15px 0;
-    background-color: #515051;
+    background-color: #fff;
     padding: 130px 0;
     position: relative;
 }
@@ -173,7 +173,7 @@ section {
  */
 
 .info {
-    background-color: #515051;
+    background-color: #fff;
     margin-top: 15px;
     padding: 100px 0;
     position: relative;
@@ -204,7 +204,7 @@ section {
  */
 
 .faq {
-    background-color: #ffffff;
+    background-color: #fff;
     margin-top: 15px;
     padding: 100px 0;
     position: relative;
@@ -278,16 +278,16 @@ section {
 }
 
 .answer {
-    color: EA8D83;
-    
+    color: #000;
+
 }
 
 .brace {
-    color: #242943;
+    color: #EA8D83;
 }
 
 .parentheses {
-    color: #89C4A5;
+    color: #EA8D83;
 }
 
 #sidebar li {
