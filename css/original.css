@@ -240,7 +240,7 @@ section {
     width: 300px;
 }
 
-.faq-links .faq-links:link .faq-links:visited .faq-links:hover .faq-links:active{
+.faq-links .faq-links:hover .faq-links:active{
     color: #FEC999;
 }
 
