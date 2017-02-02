@@ -1,31 +1,27 @@
----
-layout: default
----
-
-{% include hero.html %}
+--- layout: default --- {% include hero.html %}
 
 <section class="about">
-  <div class="container">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-      {{ site.event.about.description | markdownify }}
+    <div class="container">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+            {{ site.event.about.description | markdownify }}
+        </div>
     </div>
-  </div>
 </section>
 
 <section class="info">
-  <div class="container">
-    <div class="items row">
-      {% for section in site.event.info.sections %}
-        <div class="col-xs-12 col-sm-4 text-center">
-          <div class="item">
-            <img src="{{ section.image }}" />
-            <h1>{{ section.title }}</h1>
-            <p>{{ section.description }}</p>
-          </div>
+    <div class="container">
+        <div class="items row">
+            {% for section in site.event.info.sections %}
+            <div class="col-xs-12 col-sm-4 text-center">
+                <div class="item">
+                    <img src="{{ section.image }}" />
+                    <h1>{{ section.title }}</h1>
+                    <p>{{ section.description }}</p>
+                </div>
+            </div>
+            {% endfor %}
         </div>
-      {% endfor %}
     </div>
-  </div>
 </section>
 
 <section class="faq">
@@ -49,7 +45,7 @@ layout: default
                             <span class="parentheses">)</span> <span class="brace">{</span>
                         </div>
                         <div class="answer">
-                          <p>hello</p>
+                            <p>hello</p>
                         </div>
                         <span class="brace">}</span>
                     </div>
@@ -60,7 +56,8 @@ layout: default
                         <div class="answer">
                         </div>
                         <span class="brace">}</span>
-                    </div><div class="col-md-4">
+                    </div>
+                    <div class="col-md-4">
                         <div class="question">
                             <span class="keyword">function</span>
                             <span class="function"> what_is_a_hackathon? </span>
@@ -68,7 +65,7 @@ layout: default
                             <span class="parentheses">)</span> <span class="brace">{</span>
                         </div>
                         <div class="answer">
-                          <p>hello</p>
+                            <p>hello</p>
                         </div>
                         <span class="brace">}</span>
                     </div>
