@@ -41,18 +41,37 @@ layout: default
                 <h1 class="text-center">FAQ</h1>
                 <br>
                 <div class="row">
-                    {% for item in site.event.faq %}
-                    <div class="col-lg-4">
+                    <!-- {% for item in site.event.faq %} -->
+                    <div class="col-md-4">
                         <div class="question">
                             <span class="keyword">function</span><span class="function"> {{ item.question }} </span><span class="parentheses">(</span><span class="params"></span><span class="parentheses">)</span> <span class="brace">{</span>
                         </div>
                         <div class="answer">
-                            {{ item.answer | markdownify }}
+                            <!-- {{ item.answer | markdownify }} -->
                         </div>
                         <span class="brace">}</span>
                     </div>
                     <br><br><br><br><br>
-                    {% endfor %}
+                    <div class="col-md-4">
+                        <div class="question">
+                            <span class="keyword">function</span><span class="function"> {{ item.question }} </span><span class="parentheses">(</span><span class="params"></span><span class="parentheses">)</span> <span class="brace">{</span>
+                        </div>
+                        <div class="answer">
+                            <!-- {{ item.answer | markdownify }} -->
+                        </div>
+                        <span class="brace">}</span>
+                    </div>
+                    <br><br><br><br><br>
+                    <div class="col-md-4">
+                        <div class="question">
+                            <span class="keyword">function</span><span class="function"> {{ item.question }} </span><span class="parentheses">(</span><span class="params"></span><span class="parentheses">)</span> <span class="brace">{</span>
+                        </div>
+                        <div class="answer">
+                            <!-- {{ item.answer | markdownify }} -->
+                        </div>
+                        <span class="brace">}</span>
+                    </div>
+                    <!-- {% endfor %} -->
                 </div>
             </div>
         </div>
