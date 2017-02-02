@@ -91,7 +91,7 @@ section {
 
 .hero .wrapper h1 {
     display: inline-block;
-    font-size: 120px;
+    font-size: 80%;
     font-weight: 800;
     letter-spacing: -2px;
     padding: 10px 30px;
