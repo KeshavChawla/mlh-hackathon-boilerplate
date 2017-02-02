@@ -2,7 +2,7 @@ $(document).ready(function() {
     var faqHeight = $('.faq').height();
     var lineHeight = $('#linecount-start').height();
     var lineCount = faqHeight / lineHeight;
-
+    alert(lineCount);
     for (i = 1; i < lineCount; i++) {
         var newNode = document.createElement('li');
         var innerContent = document.createTextNode(i);
