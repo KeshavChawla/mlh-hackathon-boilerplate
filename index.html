@@ -28,12 +28,12 @@ layout: default
   </div>
 </section>
 
-<!-- <section class="faq">
-    <div class="col-xs-1"> -->
+<section class="faq">
+    <div class="col-xs-1">
         <!-- <ul id="sidebar">
             <li id="linecount-start">&nbsp;</li>
         </ul> -->
-    <!-- </div>
+    </div>
     <div class="col-xs-10 faq-body container">
         <div class="row">
             <br>
@@ -56,22 +56,4 @@ layout: default
             </div>
         </div>
     </div>
-</section> -->
-
-
-<section class="faq">
-  <div class="container">
-    <h1 class="text-center">FAQ</h1>
-    <div class="row">
-      <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-        {% for item in site.event.faq %}
-        <div class="question col-xs-12 col-sm-12">
-          <h2>{{ item.question }}</h2>
-          <hr>
-          {{ item.answer | markdownify }}
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
 </section>
