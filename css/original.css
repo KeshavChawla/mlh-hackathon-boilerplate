@@ -267,6 +267,12 @@ section {
     color: #fff;
 }
 
+#sidebar li {
+    list-style-type: none;
+    color: #7e7f7c;
+}
+
+
 /*
  * Footer Section
  */
