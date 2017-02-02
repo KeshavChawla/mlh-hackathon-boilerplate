@@ -27,3 +27,33 @@ layout: default
     </div>
   </div>
 </section>
+
+<section class="faq">
+    <div class="col-xs-1">
+        <!-- <ul id="sidebar">
+            <li id="linecount-start">&nbsp;</li>
+        </ul> -->
+    </div>
+    <div class="col-xs-10 faq-body container">
+        <div class="row">
+            <br/>
+            <div>
+                <h1 class="text-center">FAQ</h1>
+                <br>
+                <div class="row">
+                    {% for item in site.event.faq %}
+                    <div class="col-xs-12">
+                        <div class="question">
+                            <span class="keyword">function</span><span class="function"> {{ item.question }}</span><span class="parentheses">(</span><span class="params"></span><span class="parentheses">)</span> <span class="brace">{</span>
+                        </div>
+                        <div class="answer">
+                            <p>{{ item.answer }}</p>
+                        </div>
+                        <span class="brace">}</span>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
