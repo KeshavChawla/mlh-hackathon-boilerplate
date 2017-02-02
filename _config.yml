@@ -99,7 +99,7 @@ event:
   # This is the message you'll receive once you've registered.
   register:
     message: >
-      You'll receive more information closer to the hackathon.
+      You'll receive more information closer to the hackat hon.
 
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --
