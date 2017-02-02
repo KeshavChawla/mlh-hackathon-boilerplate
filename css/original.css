@@ -110,7 +110,6 @@ section {
 
 .hero .buttons {
     margin: 10px 0;
-    
 }
 
 .hero .buttons a {
@@ -267,10 +266,14 @@ section {
 .parentheses {
     color: #fff;
 }
-
 #sidebar li {
-    list-style-type: none;
-    color: #7e7f7c;
+  visibility: hidden;
+}
+@media (min-width: 576px) {
+    #sidebar li {
+        list-style-type: none;
+        color: #7e7f7c;
+    }
 }
 
 
