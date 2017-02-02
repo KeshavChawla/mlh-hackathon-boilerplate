@@ -151,13 +151,13 @@ section {
 
 .about {
     border-width: 15px 0;
-    background-color: #292A25;
+    background-color: #515051;
     padding: 130px 0;
     position: relative;
 }
 
 .about p {
-    color: #0F2C34;
+    color: #242943;
     font-weight: 600;
     font-size: 22px;
     line-height: 1.6em;
@@ -175,7 +175,7 @@ section {
  */
 
 .info {
-    background-color: #000000;
+    background-color: #515051;
     margin-top: 15px;
     padding: 100px 0;
     position: relative;
