@@ -269,7 +269,7 @@ section {
     visibility: hidden;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
     #sidebar li {
         visibility: visible;
         list-style-type: none;
