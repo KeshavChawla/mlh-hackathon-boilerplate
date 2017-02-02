@@ -24,7 +24,7 @@ social:
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:        "InspireHacks | 15/16 April 2017"
+  title:       "InspireHacks | 15/16 April 2017"
   description: "This is a sample hackathon website that you can use by following instructions on GitHub."
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
@@ -102,7 +102,7 @@ seo:
       answer: >
         You can build whatever you want: websites, programs, mobile apps, anything! However, all code must be written during the hackathon - feel free to use open source libraries and APIs.
   # This is the message you'll receive once you've registered.
-  register: 
+  register:
     message: >
       You'll receive more information closer to the hackathon.
 
