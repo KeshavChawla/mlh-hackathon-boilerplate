@@ -11,7 +11,6 @@
 /* Montserrat Google Font */
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
 @font-face {
     font-family: 'Outage';
     src: url('../fonts/Outage.ttf');
@@ -218,8 +217,14 @@ section {
 
 .schedule h1 {
     font-family: Montserrat;
+    font-weight: 700;
     color: #fff;
 }
+
+.schedule h2 {
+    font-weight: 700;
+}
+
 
 /*#242943
 #72C3DD
