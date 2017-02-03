@@ -215,19 +215,48 @@ section {
     position: relative;
 }
 
-.schedule h1{
+.schedule h1 {
     font-family: 'Outage';
     color: #fff;
 }
 
-.schedule h2{
+.schedule h2 {
     font-family: 'Outage';
     color: #fff;
 }
 
 
+/*#242943
+#72C3DD
+#8D84C2
+#EA8D83
+#FEC999
+#8FAAE6
+#89C4A5*/
 
+.schedule .purple {
+    color: #8D84C2;
+}
 
+.schedule .blue {
+    color: #8FAAE6;
+}
+
+.schedule .lightblue {
+    color: #72C3DD;
+}
+
+.schedule .green {
+    color: #89C4A5;
+}
+
+.schedule .orange {
+    color: #FEC999;
+}
+
+.schedule .red {
+    color: #EA8D83;
+}
 
 
 /*
