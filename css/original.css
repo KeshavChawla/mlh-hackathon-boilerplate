@@ -11,6 +11,11 @@
 /* Montserrat Google Font */
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@font-face {
+    font-family: 'Outage';
+    src: url('../fonts/Outage.ttf');
+}
+
 
 /* Color Palette
 #72C3DD
@@ -196,6 +201,15 @@ section {
 
 .info .item p {
     font-size: 20px;
+}
+
+
+/*
+ * Schedule Section
+ */
+
+.schedule h1 {
+    font-family: 'Outage';
 }
 
 
