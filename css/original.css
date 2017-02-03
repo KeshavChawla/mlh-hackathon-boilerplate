@@ -208,15 +208,16 @@ section {
  * Schedule Section
  */
 
- .schedule {
-     background-color: #252829;
-     margin-top: 15px;
-     padding: 100px 0;
-     position: relative;
- }
+.schedule {
+    background-color: #252829;
+    margin-top: 15px;
+    padding: 100px 0;
+    position: relative;
+}
 
 .schedule h1 {
     font-family: 'Outage';
+    color: #fff;
 }
 
 
