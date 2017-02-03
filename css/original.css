@@ -215,10 +215,13 @@ section {
     position: relative;
 }
 
-.schedule h1 {
+.schedule h1 h2{
     font-family: 'Outage';
     color: #fff;
 }
+
+
+
 
 
 /*
