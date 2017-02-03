@@ -178,7 +178,7 @@ section {
  */
 
 .info {
-    background-color: #fff;
+    background-color: #252829;
     margin-top: 15px;
     padding: 100px 0;
     position: relative;
@@ -193,6 +193,7 @@ section {
     font-size: 45px;
     font-weight: 700;
     margin: 20px 0;
+    color: #fff;
 }
 
 .info .item img {
@@ -201,6 +202,7 @@ section {
 
 .info .item p {
     font-size: 20px;
+    color: #fff;
 }
 
 
