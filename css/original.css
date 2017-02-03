@@ -204,7 +204,7 @@ section {
  */
 
 .faq {
-    background-color: #252829;
+    background-color: #fff;
     margin-top: 15px;
     padding: 100px 0;
     position: relative;
@@ -214,7 +214,7 @@ section {
     font-family: 'Montserrat';
     font-weight: 700;
     margin: 30px 0;
-    color: #FEC999;
+    color: #242943;
 }
 
 .faq .question h2 {
@@ -232,7 +232,6 @@ section {
 .faq .question p {
     font-size: 18px;
     line-height: 1.5em;
-    color: #000;
 }
 
 .faq img {
@@ -275,7 +274,7 @@ section {
 }
 
 .answer {
-    color: #fff;
+    color: #000;
 }
 
 .brace {
