@@ -154,13 +154,13 @@ section {
 
 .about {
     border-width: 15px 0;
-    background-color: #fff;
+    background-color: #252829;
     padding: 130px 0;
     position: relative;
 }
 
 .about p {
-    color: #242943;
+    color: #fff;
     font-weight: 600;
     font-size: 22px;
     line-height: 1.6em;
