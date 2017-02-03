@@ -222,7 +222,6 @@ section {
 
 .schedule h2 {
     font-family: 'Outage';
-    color: #fff;
 }
 
 
@@ -234,27 +233,27 @@ section {
 #8FAAE6
 #89C4A5*/
 
-.purple {
+.schedule .purple {
     color: #8D84C2;
 }
 
-.blue {
+.schedule .blue {
     color: #8FAAE6;
 }
 
-.lightblue {
+.schedule .lightblue {
     color: #72C3DD;
 }
 
-.green {
+.schedule .green {
     color: #89C4A5;
 }
 
-.orange {
+.schedule .orange {
     color: #FEC999;
 }
 
-.red {
+.schedule .red {
     color: #EA8D83;
 }
 
